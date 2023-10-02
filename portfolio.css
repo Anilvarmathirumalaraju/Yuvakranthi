@@ -1,0 +1,584 @@
+body{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* border: 1px solid black; */
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+}
+.main-header{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+.img-bjp{
+    width: 10rem;
+    height: 5rem;
+}
+.yuva-kranthi{ 
+     font-size: 75px;
+     font-family: Raleway;
+     color: #FF7E54;
+}
+hr{
+    border: 1px 0px 1px 0px;
+    border-width: 1px, 0px, 1px, 0px;
+    border-style: solid;
+    border-color: #524D4D;
+    margin: 5px 35%;
+}
+.head-tittle{
+   font-family: Cinzel;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.back-button-home{
+    float: right;
+    font-family: Cinzel;
+}
+.back-button-home i{
+    font-size: 40px;
+}
+/* footer start */
+.footer{
+    width: 100%;
+    height: 18rem;
+    /* border: 1px solid black; */
+    /* margin: 10px 0px; */
+    /* background-color: #FF7E54; */
+    background-image: url("./images/footer-background.jpeg");
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.footer-top{
+    color: black;
+    margin: 0px 50px;
+}
+.footer-main{
+    width: 90%;
+    height: 15rem;
+    margin: auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-sub{
+    width: 22%;
+    height: auto;
+    /* border: 1px solid blue; */
+    padding: 10px;
+    
+}
+.footer-sub h4{
+    font-family: Cinzel;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #732000;
+    
+
+}
+.footer-sub p{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 20px;
+    
+    
+}
+p{
+    margin: 5px;
+}
+.footer-sub-1{
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+    text-decoration: none;
+    /* padding-left: 20px; */
+    
+}
+.footer-sub-1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.footer-sub-1 a:hover{
+   
+    font-size: 30px;
+
+}
+.footer-links{
+    display: flex;
+    column-gap: 20px;
+    /* background-color: #FF7E54; */
+    
+}
+.footer-links a{
+    display: flex;
+    column-gap: 20px;
+    background-color: #FF7E54;
+    border-radius: 40%;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+
+    
+}
+
+/* portfolio */
+.portfolio{
+    /* border: 1px solid black; */
+    margin: 30px 0px;
+    padding: 0px 30px;
+}
+.portfolio-head{
+    font-family: Radley;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+.portfolio-content{
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+
+}
+.portfolio-img-con{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    margin: 30px 0px;
+
+}
+.portfolio-img-content{
+     width: 60%;
+     height: auto;
+     /* border: 1px solid green; */
+}
+.portfolio-img-image{
+    width: 40%;
+    height: 30rem;
+    /* border: 1px solid green; */
+}
+.portfolio-img-image img{
+    width: 100%;
+    height: 100%;
+}
+.back-button{
+     position: absolute;
+     top: 200px;
+     right: 30px;
+}
+
+
+/* header - footer */
+/* header - footer */
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .main-header{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+    .img-bjp{
+        width: 6rem;
+        height: 3rem;
+    }
+    .yuva-kranthi{ 
+         font-size: 25px;
+         font-family: Raleway;
+         color: #FF7E54;
+         margin-top: 10px;
+    }
+   hr{
+       border: 1px 0px 1px 0px;
+       border-width: 1px, 0px, 1px, 0px;
+       border-style: solid;
+       border-color: #524D4D;
+       margin: 5px 30%;
+   }
+   .head-tittle{
+      font-family: Cinzel;
+       font-size: 25px;
+       font-weight: 400;
+       line-height: 30px;
+       letter-spacing: 0em;
+       text-align: center;
+   }
+   .back-button-home{
+    float: right;
+    font-family: Cinzel;
+    }
+    .back-button-home i{
+        font-size: 20px;
+    }
+   
+
+    .footer {
+        height: auto; /* Adjust the height for mobile view as needed */
+        padding-top: 10px; /* Adjust padding for spacing in mobile view */
+        background-size: cover; /* Use "cover" for background-size to ensure it covers the entire element */
+        /* border: 1px solid black; */
+      
+      }
+    
+      .footer-main {
+        flex-direction: column; /* Stack the columns vertically for mobile view */
+        align-items: center; /* Center align the columns */
+        text-align: center; /* Center align text within the columns */
+        /* background-image: url("./images/footer-background.jpeg"); */
+        background-size: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+      }
+    
+      .footer-sub {
+        width: 100%; /* Full width for mobile view */
+        margin: 0px 0px; /* Adjust margin as needed for spacing */
+  
+      }
+    
+      .footer-sub h4 {
+        font-size: 25px; /* Adjust font size for mobile view */
+      }
+    
+      .footer-sub p {
+        font-size: 20px; /* Adjust font size for mobile view */
+        line-height: 25px;
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-sub-1 a {
+        font-size: 24px; /* Adjust font size for mobile view */
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-links {
+        flex-direction: row; /* Display links in a row for mobile view */
+        justify-content: center; /* Center align the links */
+        margin-top: 20px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-links a {
+        width: 40px; /* Adjust the size of the links for mobile view */
+        height: 40px; /* Adjust the size of the links for mobile view */
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+}
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .main-header{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+    }
+    .img-bjp{
+        width: 8rem;
+        height: 4em;
+    }
+    .yuva-kranthi{ 
+         font-size: 45px;
+         font-family: Raleway;
+         color: #FF7E54;
+         margin-top: 10px;
+    }
+   hr{
+       border: 1px 0px 1px 0px;
+       border-width: 1px, 0px, 1px, 0px;
+       border-style: solid;
+       border-color: #524D4D;
+       margin: 5px 30%;
+   }.back-button-home{
+    float: right;
+    font-family: Cinzel;
+    font-size: 5px;
+    }
+    .back-button-home i{
+        font-size: 25px;
+    }
+   
+   .head-tittle{
+      font-family: Cinzel;
+       font-size: 40px;
+       font-weight: 400;
+       line-height: 50px;
+       letter-spacing: 0em;
+       text-align: center;
+   }
+   
+
+    .footer {
+        height: auto; /* Adjust the height for mobile view as needed */
+        padding-top: 0px; /* Adjust padding for spacing in mobile view */
+        background-size: cover; /* Use "cover" for background-size to ensure it covers the entire element */
+        /* border: 1px solid black; */
+        padding-bottom: 0px;
+      
+      }
+    
+      .footer-main {
+        flex-direction: row; /* Stack the columns vertically for mobile view */
+        align-items: top; /* Center align the columns */
+        text-align: center; /* Center align text within the columns */
+        /* background-image: url("./images/footer-background.jpeg"); */
+        background-size: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+      }
+    
+      .footer-sub {
+        width: 100%; /* Full width for mobile view */
+        margin: 10px 0; /* Adjust margin as needed for spacing */
+  
+      }
+    
+      .footer-sub h4 {
+        font-size: 20px; /* Adjust font size for mobile view */
+      }
+    
+      .footer-sub p {
+        font-size: 15px; /* Adjust font size for mobile view */
+        line-height: 20px;
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-sub-1 a {
+        font-size: 15px; /* Adjust font size for mobile view */
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+      .footer-sub-1 a:hover{
+        font-size: 18px;
+      }
+    
+      .footer-links {
+        flex-direction: row; /* Display links in a row for mobile view */
+        justify-content: center; /* Center align the links */
+        margin-top: 20px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-links a {
+        width: 40px; /* Adjust the size of the links for mobile view */
+        height: 40px; /* Adjust the size of the links for mobile view */
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+}
+@media screen and (min-width: 950px) and (max-width: 1230px){
+    .main-header{
+       
+        padding: 15px 0px;
+    }
+    .img-bjp{
+        width: 8rem;
+        height: 4rem;
+    }
+    .yuva-kranthi{ 
+         font-size: 50px;
+         margin-top: 10px;
+         line-height: 50px;
+    }
+    .back-button-home{
+        float: right;
+        font-family: Cinzel;
+        font-size: 5px;
+        }
+        .back-button-home i{
+            font-size: 3cqw;
+        }
+       
+    /* footer */
+    .footer {
+        height: auto; /* Adjust the height for mobile view as needed */
+        padding-top: 0px; /* Adjust padding for spacing in mobile view */
+        background-size: cover; /* Use "cover" for background-size to ensure it covers the entire element */
+        /* border: 1px solid black; */
+        padding-bottom: 0px;
+      
+      }
+    
+      .footer-main {
+        flex-direction: row; /* Stack the columns vertically for mobile view */
+        align-items: top; /* Center align the columns */
+        text-align: center; /* Center align text within the columns */
+        /* background-image: url("./images/footer-background.jpeg"); */
+        background-size: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+      }
+    
+      .footer-sub {
+        width: 100%; /* Full width for mobile view */
+        margin: 10px 0; /* Adjust margin as needed for spacing */
+  
+      }
+    
+      .footer-sub h4 {
+        font-size: 25px; /* Adjust font size for mobile view */
+      }
+    
+      .footer-sub p {
+        font-size: 20px; /* Adjust font size for mobile view */
+        line-height: 25px;
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-sub-1 a {
+        font-size: 20px; /* Adjust font size for mobile view */
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-links {
+        flex-direction: row; /* Display links in a row for mobile view */
+        justify-content: center; /* Center align the links */
+        margin-top: 20px; /* Adjust margin as needed for spacing */
+      }
+    
+      .footer-links a {
+        width: 40px; /* Adjust the size of the links for mobile view */
+        height: 40px; /* Adjust the size of the links for mobile view */
+        margin-top: 10px; /* Adjust margin as needed for spacing */
+      }
+}
+
+/* portfolio */
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .portfolio{
+        padding: 0px 5px;
+    }
+    .portfolio-head{
+        font-size: 25px;
+        line-height: 33px;
+        margin: 10px 0px;
+        margin-top: 20px;
+    }
+    .portfolio-content{
+        font-size: 15px;
+        line-height: 30px;
+        margin: 10px 0px;
+    
+    }
+    .portfolio-img-con{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 30px 0px;
+    
+    }
+    .portfolio-img-content{
+         width: 100%;
+         height: auto;
+         /* border: 1px solid green; */
+    }
+    .portfolio-img-image{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid green; */
+    }
+    .portfolio-img-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .back-button{
+         position: absolute;
+         top: 200px;
+         right: 30px;
+    }
+    
+}
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .portfolio{
+        padding: 0px 10px;
+    }
+    .portfolio-head{
+        font-size: 35px;
+        line-height: 38px;
+        margin: 10px 0px;
+        margin-top: 25px;
+    }
+    .portfolio-content{
+        font-size: 20px;
+        line-height: 30px;
+        margin: 10px 0px;
+    
+    }
+    .portfolio-img-con{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 30px 0px;
+    
+    }
+    .portfolio-img-content{
+         width: 100%;
+         height: auto;
+         /* border: 1px solid green; */
+    }
+    .portfolio-img-image{
+        width: 100%;
+        height: 60%;
+        /* border: 1px solid green; */
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .back-button{
+         position: absolute;
+         top: 200px;
+         right: 30px;
+    }
+    
+}
+@media screen and (min-width: 950px) and (max-width: 1230px){
+    .portfolio{
+        padding: 0px 10px;
+    }
+    .portfolio-head{
+        font-size: 35px;
+        line-height: 43px;
+    }
+    .portfolio-content{
+       font-size: 25px;
+       line-height: 35px;
+      
+    }
+   
+    
+}

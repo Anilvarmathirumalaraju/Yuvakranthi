@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate English to Telugu</title>
+</head>
+<body>
+    <h1>Translate English to Telugu</h1>
+
+    <div>
+        <label for="englishText">Enter English Text:</label>
+        <a href="./Biography.html"> <button id="translateButton">Translate</button></a>
+    </div>
+
+    <div>
+        <h2>Translated Text (Telugu):</h2>
+        <p id="teluguText"></p>
+    </div>
+
+    <script>
+        // Replace with your actual API key and endpoint
+        const apiKey = 'YOUR_API_KEY';
+        const endpoint = 'https://translation.googleapis.com/language/translate/v2';
+
+        document.getElementById('translateButton').addEventListener('click', () => {
+            const englishText = document.getElementById('englishText').value;
+
+            fetch(`${endpoint}?key=${apiKey}`, {
+                method: 'POST',
+                body: JSON.stringify({
+                    q: englishText,
+                    target: 'te', // 'te' is the language code for Telugu
+                }),
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                const teluguText = data.data.translations[0].translatedText;
+                document.getElementById('teluguText').textContent = teluguText;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>

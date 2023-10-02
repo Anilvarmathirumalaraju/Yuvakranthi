@@ -1,0 +1,921 @@
+body{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border: 1px solid black; */
+}
+
+
+.home{
+    border: 1px solid black;
+    margin: 0px;
+}
+.main-home{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    display: flex;
+    
+}
+.main-home-left{
+    width: 45vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+#imageContainer{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#image{
+    width: 90%;
+    height: 90%;
+}
+.main-home-right{
+    width: 55vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+.main-header-home{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    /* border: 1px solid black; */
+}
+.img-bjp-home{
+    width: 10rem;
+    height: 5rem;
+}
+.yuva-kranthi-home{ 
+     font-size: 75px;
+     font-family: Raleway;
+     color: #FF7E54;line-height: 80px;
+}
+.bjp-main-quote{
+    font-family: Alice;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #046A38;
+    padding: 0px 20px;
+
+}
+.home-head-s-links{
+       width: 100%;
+
+      display: flex;
+      /* border: 1px solid black; */
+      column-gap: 40px;
+      justify-content: center;
+}
+.home-head-s-small-links{
+    display: none;
+}
+.home-head-s-medium-links{
+    display: none;
+}
+.home-head-s-links a{
+    width: 50px;
+    height: 50px;
+}
+.page-links-main{
+    font-family: Alice;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+   color: black;
+   display: flex;
+   column-gap: 30px;
+    
+
+}
+.page-links-main a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.pages{
+    width: 100%;
+    height: 35rem;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 40px 0px;
+}
+.side-page-1{
+    border: 1px solid black;
+}
+.side-page-2{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-page-1{
+    width: 95%;
+    height: 35rem;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(./images/pages-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home-page-2{
+    width: 90%;
+    height: auto;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(./images/pages-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home-page-3{
+    width: 90%;
+    height: 15rem;
+    border: 1px solid green;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(./images/pages-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.side-image{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+}
+/* page1 */
+.portfolio-page{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.portfolio-page h1{
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.portfolio-page p{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.portfolio-page a{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+}
+.portfolio-page a:hover{
+    font-size: 35px;
+
+}
+
+/* page2 */
+.Karimnagar-page{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Karimnagar-page h1{
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Karimnagar-page p{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Karimnagar-page a{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+}
+.Karimnagar-page a:hover{
+    font-size: 35px;
+
+}
+
+
+/* page3 */
+.Biography-page{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Biography-page h1{
+    font-family: Cinzel;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Biography-page p{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.Biography-page a{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: black;
+    text-decoration: none;
+}
+.Biography-page a:hover{
+    font-size: 35px;
+
+}
+  /* main home */
+@media screen and (min-width: 360px) and (max-width: 600px){
+    .main-home{
+        width: 100%;
+        height: 60vh;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .main-home-left{
+        width: 50vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid green;
+    }
+    #imageContainer{
+        width: 100%;
+        height: 100%;
+        border: 1px solid red;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #image{
+        width: 90%;
+        height: 90%;
+    }
+    .main-home-right{
+        width:50vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        /* border: 1px solid green; */
+    }
+    .main-header-home{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        /* border: 1px solid black; */
+    }
+    .img-bjp-home{
+        width: 4rem;
+        height: 2rem;
+        /* border: 1px solid black; */
+    }
+    .yuva-kranthi-home{ 
+         font-size: 14px;
+         line-height: 20px;
+         margin-top: 10px;
+    }
+    .bjp-main-quote{
+        font-family: Alice;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        
+    
+    }
+    .home-head-s-links{
+        display: none;
+    }
+    .home-head-s-small-links{
+        display: block;
+    }
+    .home-head-s-small-links{
+           width: 100%;
+    
+          display: flex;
+          /* border: 1px solid black; */
+          column-gap: 20px;
+          justify-content: center;
+    }
+    .home-head-s-small-links a{
+        width: 20px;
+        height: 20px;
+    }
+    .page-links-main{
+        font-family: Alice;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+       column-gap: 7px;
+    }
+    
+}
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .main-home{
+        width: 100%;
+        height: 60vh;
+        /* border: 1px solid black; */
+        display: flex;
+        
+    }
+    .main-home-left{
+        width: 50vw;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid green; */
+    }
+    #imageContainer{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #image{
+        width: 90%;
+        height: 90%;
+    }
+    .main-home-right{
+        width: 50vw;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-items: center;
+        /* border: 1px solid green; */
+    }
+    .main-header-home{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        /* border: 1px solid black; */
+    }
+    .img-bjp-home{
+        width: 6rem;
+        height: 3rem;
+        /* border: 1px solid black; */
+    }
+    .yuva-kranthi-home{ 
+         font-size: 25px;
+         line-height: 30px;
+         margin-top: 10px;
+    }
+    .bjp-main-quote{
+        font-family: Alice;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        
+    
+    }
+    .home-head-s-links{
+        display: none;
+    }
+    .home-head-s-small-links{
+        display: none;
+    }
+    .home-head-s-medium-links{
+        display: block;
+    }
+    .home-head-s-medium-links{
+          width: 100%;
+          display: flex;
+          /* border: 1px solid black; */
+          column-gap: 20px;
+          justify-content: center;
+    }
+    .home-head-s-small-links a{
+        width: 20px;
+        height: 20px;
+    }
+    .page-links-main{
+        font-family: Alice;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+       column-gap: 15px;
+    }
+    
+}
+@media screen and (min-width: 950px) and (max-width: 1230px){
+    .main-home{
+        width: 100%;
+        height: 80vh;
+        /* border: 1px solid black; */
+        display: flex;
+        
+    }
+    .main-home-left{
+        width: 50vw;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid green; */
+    }
+    #imageContainer{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    #image{
+        width: 90%;
+        height: 100%;
+    }
+    .main-home-right{
+        width: 50vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-items: center;
+        /* border: 1px solid green; */
+    }
+    .main-header-home{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px;
+        /* border: 1px solid black; */
+    }
+    .img-bjp-home{
+        width: 10rem;
+        height: 5rem;
+        /* border: 1px solid black; */
+    }
+    .yuva-kranthi-home{ 
+         font-size: 40px;
+         line-height: 40px;
+         margin-top: 15px;
+    }
+    .bjp-main-quote{
+        font-family: Alice;
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 35px;
+        
+    
+    }
+    .home-head-s-links{
+        display: none;
+    }
+    .home-head-s-small-links{
+        display: none;
+    }
+    .home-head-s-medium-links{
+        display: block;
+    }
+    .home-head-s-medium-links{
+          width: 100%;
+          display: flex;
+          /* border: 1px solid black; */
+          column-gap: 20px;
+          justify-content: center;
+    }
+    .home-head-s-small-links a{
+        width: 20px;
+        height: 20px;
+    }
+    .page-links-main{
+        font-family: Alice;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 25px;
+       column-gap: 15px;
+    }
+    
+}
+
+/* side pages */
+@media screen and (min-width: 360px) and (max-width: 600px){
+         
+.pages{
+    width: 100%;
+    height: 35rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.side-page-1{
+    border: 1px solid black;
+}
+.side-page-2{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-page-1{
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(./images/pages-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home-page-2{
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(./images/pages-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home-page-3{
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-image: url(./images/pages-background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.side-image{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+}
+/* page1 */
+
+.portfolio-page h1{
+    font-size: 15px;
+    font-weight: 1000;
+    line-height: 20px;
+}
+.portfolio-page p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.portfolio-page a{
+    font-size: 15px;
+    line-height: 23px;
+}
+.portfolio-page a:hover{
+    font-size: 20px;
+
+}
+
+/* page2 */
+.Karimnagar-page h1{
+    font-size: 15px;
+    font-weight: 1000;
+    line-height: 20px;
+}
+.Karimnagar-page p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.Karimnagar-page a{
+    font-size: 15px;
+    line-height: 23px;
+}
+.Karimnagar-page a:hover{
+    font-size: 20px;
+}
+
+
+/* page3 */
+.Biography-page h1{
+    font-size: 15px;
+    font-weight: 1000;
+    line-height: 20px;
+}
+.Biography-page p{
+    font-size: 13px;
+    line-height: 18px;
+}
+.Biography-page a{
+    font-size: 15px;
+    line-height: 23px;
+}
+.Biography-page a:hover{
+    font-size: 20px;
+
+}     
+   }
+@media screen and (min-width: 600px) and (max-width: 950px){
+    .pages{
+        width: 100%;
+        height: 35rem;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+    .side-page-1{
+        border: 1px solid black;
+    }
+    .side-page-2{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .home-page-1{
+        margin: 15px 0px;
+        width: 100%;
+        height: auto;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-image: url(./images/pages-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .home-page-2{
+        margin: 15px 0px;
+        width: 100%;
+        height: auto;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-image: url(./images/pages-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .home-page-3{
+        margin: 15px 0px;
+        width: 100%;
+        height: auto;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-image: url(./images/pages-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .side-image{
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        margin-top: auto;
+    }
+    /* page1 */
+    
+    .portfolio-page h1{
+        font-size: 25px;
+        font-weight: 1000;
+        line-height: 30px;
+    }
+    .portfolio-page p{
+        font-size: 23px;
+        line-height: 28px;
+        text-align: left;
+    }
+    .portfolio-page a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .portfolio-page a:hover{
+        font-size: 35px;
+    
+    }
+    
+    /* page2 */
+    .Karimnagar-page h1{
+        font-size: 25px;
+        font-weight: 1000;
+        line-height: 30px;
+    }
+    .Karimnagar-page p{
+        font-size: 23px;
+        line-height: 28px;
+        text-align: left;
+    }
+    .Karimnagar-page a{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .Karimnagar-page a:hover{
+        font-size: 35px;
+    }
+    
+    
+    /* page3 */
+    .Biography-page h1{
+        font-size: 25px;
+        font-weight: 1000;
+        line-height: 30px;
+    }
+    .Biography-page p{
+        font-size: 23px;
+        line-height: 28px;
+        text-align: left;
+    }
+    .Biography-page a{
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .Biography-page a:hover{
+        font-size: 35px;
+    
+    }     
+}
+@media screen and (min-width: 950px) and (max-width: 1230px){
+    .pages{
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .side-page-1{
+        border: 1px solid black;
+    }
+    .side-page-2{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .home-page-1{
+        /* margin: 15px 0px; */
+        width: 90%;
+        height: auto;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-image: url(./images/pages-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .home-page-2{
+        /* margin: 15px 0px; */
+        width: 90%;
+        height: auto;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-image: url(./images/pages-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .home-page-3{
+        /* margin: px 0px; */
+        width: 90%;
+        height: auto;
+        border: 1px solid green;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        background-image: url(./images/pages-background.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    .side-image{
+        border: 1px solid black;
+        width: 100%;
+        height: 100%;
+        margin-top: auto;
+    }
+    /* page1 */
+    
+    .portfolio-page h1{
+        font-size: 20px;
+        font-weight: 1000;
+        line-height: 25px;
+    }
+    .portfolio-page p{
+        font-size: 18px;
+        line-height: 23px;
+        text-align: left;
+    }
+    .portfolio-page a{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .portfolio-page a:hover{
+        font-size: 25px;
+    
+    }
+    
+    /* page2 */
+    .Karimnagar-page h1{
+        font-size: 20px;
+        font-weight: 1000;
+        line-height: 25px;
+    }
+    .Karimnagar-page p{
+        font-size: 18px;
+        line-height: 23px;
+        text-align: left;
+    }
+    .Karimnagar-page a{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .Karimnagar-page a:hover{
+        font-size: 23px;
+    }
+    
+    
+    /* page3 */
+    .Biography-page h1{
+        font-size: 20px;
+        font-weight: 1000;
+        line-height: 25px;
+    }
+    .Biography-page p{
+        font-size: 18px;
+        line-height: 23px;
+        text-align: left;
+    }
+    .Biography-page a{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .Biography-page a:hover{
+        font-size: 23px;
+    
+    }
+}
